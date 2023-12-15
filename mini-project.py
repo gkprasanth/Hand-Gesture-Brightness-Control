@@ -49,7 +49,7 @@ def job():
         print(f"File uploaded successfully. URL: {file_url}")
 
 # Schedule the job every day at a specific time
-schedule.every().day.at("02:25").do(job)
+schedule.every().day.at("10:00").do(job)
 
 # Continuous scheduling loop
 while True:
